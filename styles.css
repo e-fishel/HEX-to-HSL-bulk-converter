@@ -1,0 +1,52 @@
+.button {
+	font-size: 1em;
+	background: hsl(0, 0%, 70%);
+	position: absolute;
+	width: 260px;
+	color: hsl(0, 0%, 0%);
+	border-radius: 100px;
+	border: 0px solid;
+	padding: 5px;
+	transition: box-shadow 0.15s, background 0.35s;
+}
+
+.button:hover {
+	color: hsl(0, 0%, 100%);
+	background: hsl(0, 0%, 30%);
+	box-shadow: 0px 0px 10px 0px hsl(0, 0%, 15%);
+}
+
+.button:focus {
+	box-shadow: initial;
+	outline: none;
+}
+
+.input, .output {
+	background: hsl(0, 0%, 15%);
+	position: absolute;
+	color: hsl(0, 0%, 100%);
+	width: 240px;
+	height: 720px;
+	top: 45px;
+	border-radius: 10px;
+	border: 0px solid;
+	transition: box-shadow 0.35s;
+	padding: 10px;
+  resize: none;
+}
+
+.input:hover, .output:hover {
+	box-shadow: 0px 0px 10px 5px hsl(0, 0%, 50%);
+}
+
+.input:focus, .output:focus {
+	outline: none;
+}
+
+.input:focus {
+	box-shadow: initial;
+}
+
+.output {
+	left: 280px;
+}
