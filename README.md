@@ -9,7 +9,7 @@ How to use:
 1. Start by downloading the files as you do
 2. Open index.html with the browser of your choice
 3. This should load the document onto your tab
-4. You may want to remove the sample HEX and input your own
+4. You may want to remove the sample HEX and input your own HEX codes with or without the proper `#`, separate them using linebreaks or spaces
 5. Click the "to HSL" button at the top of the page
 
 If you want 1:1 HEX & HSL pairs, then head to the console, it'll be there
